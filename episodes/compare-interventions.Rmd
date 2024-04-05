@@ -20,7 +20,6 @@ exercises: 30 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::: prereq
 
-## Prerequisites
 + Complete tutorials [Simulating transmission](../episodes/simulating-transmission.md) and [Modelling interventions](../episodes/modelling-interventions.md)
 
 Learners should familiarise themselves with following concept dependencies before working through this tutorial: 
@@ -144,7 +143,7 @@ no_vaccination <- no_vaccination(population = uk_population, doses = 2)
 
 ::::::::::::::::: hint
 
-### HINT : Running the model with default parameter values
+### Running the model with default parameter values
 
 We can run the Vacamole model with [default parameter values](https://epiverse-trace.github.io/epidemics/articles/vacamole.html#model-epidemic-using-vacamole) by just specifying the population object and number of time steps to run the model for: 
 
@@ -162,8 +161,6 @@ output <- model_vacamole_cpp(
 
 
 ::::::::::::::::: solution
-
-### SOLUTION
 
 1.  Run the model
 
